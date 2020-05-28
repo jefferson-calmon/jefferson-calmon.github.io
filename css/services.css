@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #1E252B;
+}
+.banner{
+    background-position: 40% 100%;
+}
+.banner .content h2{
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 0 0 5px #000;
+}
+
+.banner .content p{
+    text-shadow: 0 0 7px #000;
+    font-weight: 500;
+}
+
+.services{
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 50px;
+}
+.services h1{
+    text-align: center;
+    font-size: 3em;
+    font-family: consolas;
+    color: #ffffffc7;
+}
+
+/* Cards */
+
+.container-services{
+    position: relative;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    grid-template-rows: auto;
+    grid-gap: 0 30px;
+    margin: 50px auto;
+    
+}
+.container-services .box{
+    position: relative;
+    height: 400px;
+    background: #060c21;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    margin: 20px auto;
+    
+}
+
+.container-services .box:before{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #fff;
+    transform: skew(2deg, 2deg);
+    z-index: -1;
+}
+
+.container-services .box:nth-child(1):before{
+    background: linear-gradient(to top, #008aff,#00ffe7);
+    animation: animate 10s linear infinite;
+}
+
+.container-services .box:nth-child(2):before{
+    background: linear-gradient(to top, #008aff,#00ffe7);
+    animation: animate 10s linear infinite;
+}
+
+.container-services .box:nth-child(3):before{
+    background: linear-gradient(to top, #008aff,#00ffe7);
+    animation: animate 10s linear infinite;
+}
+
+@keyframes animate{
+    0%,100%{
+        filter: hue-rotate(0deg);
+    }
+    50%{
+        filter: hue-rotate(360deg);
+    }
+}
+
+.container-services .box:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: rgba(255,255,255,0.05);
+    pointer-events: none;
+    overflow: hidden;
+}
+
+.contentBox{
+    position: relative;
+    padding: 20px;
+    transform: translateY(20px);
+}
+
+.contentBox .novo{
+    margin: 0;
+    position: relative;
+    top: -25px;
+    background: red;
+    padding: 1px 3px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: consolas;
+    font-size: 1.6em;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+}
+
+.contentBox h2{
+    position: absolute;
+    top: -60px;
+    right: 20px;
+    margin: 0;
+    padding: 0;
+    font-size: 10em;
+    color: rgba(255,255,255,0.2);
+    transition: 0.5s;
+}
+
+.box:hover .contentBox h2{
+    top: -140px;
+}
+
+.box .contentBox h3{
+    margin: 0 0 10px;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.box .contentBox p{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 15px;
+}
+
+.box .contentBox a{
+    position: relative;
+    margin: 20px 0 0;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 1px solid #fff;
+    display: inline-block;
+    color: #fff;
+    transition: 0.5s;
+    transform: translateY(-40px);
+    opacity: 0;
+    visibility: hidden;
+}
+
+.box:hover .contentBox a{
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+}
+.box .contentBox a:hover{
+    color: #000;
+    background-color: #fff;
+}
+
+footer a{
+    color: #ffffffc7;
+}
+footer div.icon-credito p{
+    color: #ffffffc7;
+}
+footer div.icon-credito a{
+    color: #ffffffc7;
+}
+
+@media (max-width:500px){
+    .banner .content h2{
+        font-size: 2em;
+    }
+    .banner{
+        background-attachment: scroll;
+    }
+    .contentBox .novo{
+        top: -5px;
+    }
+}
