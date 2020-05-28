@@ -79,14 +79,12 @@ header #toggle:after{
     background-attachment: scroll;
     display: flex;
     align-items: center;
-    transition: 0.8s;
-    
     z-index: 2;
 }
 
 .banner.active{
     transform: translateX(-400px);
-    /* transition: 0.5s; */
+    transition: 0.8s;
 }
 
 /* Menu */
@@ -100,8 +98,6 @@ header #toggle:after{
     background: #cf731d;
     z-index: 1;
     display: grid;
-    transition: 0s;
-    transition-delay: 0.3s;
     place-items: center;
     transform: scaleX(0);
 }
