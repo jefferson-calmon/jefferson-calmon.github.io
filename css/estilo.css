@@ -7,6 +7,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
+::selection{
+    background: #1D252B;
+    color: #ddd;
+}
+
 /* Cabecalho */
 
 header{
@@ -177,11 +182,12 @@ header #toggle:after{
 }
 
 .icon-credito{
-    margin: 0;
+    
     padding: 0;
-    position: absolute;
-    right: 20px;
-    bottom: 5px;
+    position: relative;
+    /* right: 20px;
+    bottom: 5px; */
+    margin-top: 20px;
 }
 .icon-credito p{
     font-family: consolas;
@@ -191,6 +197,8 @@ header #toggle:after{
 }
 .icon-credito p a{
     color: #333333;
+    width: 0;
+    line-height: 0;
 }
 
 /* Configuração Do Sobre mim */
@@ -268,6 +276,8 @@ footer{
 footer a{
     color: #333333;
     margin: 0 10px;
+    line-height: 60px;
+    width: 60px;
 }
 footer a:hover{
     color: #d67315;
