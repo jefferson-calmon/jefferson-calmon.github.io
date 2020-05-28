@@ -1,2 +1,1 @@
-# portfolio
-Código fonte do meu portfólio
+Os códigos fontes do meu repositório
