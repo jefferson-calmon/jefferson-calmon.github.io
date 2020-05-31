@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+::selection{
+    background: #1d252b;
+    color: #ddd;
+}
+
+#back-service-btn{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    border: none;
+    color: #fff;
+    background: #1d252b;
+    padding: 10px 15px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.container{
+    position: relative;
+    width: 90%;
+    /* background: black; */
+    margin: 85px auto;
+}
+
+header{
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+header h1{
+    font-size: 3em;
+    color: #333;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+header h3{
+    color: #333;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+section{
+    width: 80%;
+    /* background: #333; */
+    margin: 20px auto;
+}
+
+section .text{
+    margin: 20px auto;
+}
+
+section .text.apre{
+    margin: 50px auto;
+}
+
+section .text h2{
+    font-size: 35px;
+    color: #333;
+    margin-bottom: 7px;
+}
+section .text p{
+    font-size: 1.5em;
+}
+
+
+
+@media(max-width:768px){
+    header h1{
+        font-size: 2em;
+    }
+    header h3{
+        font-size: 1em;
+    }
+}
