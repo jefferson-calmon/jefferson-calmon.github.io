@@ -5,7 +5,7 @@ function toggle(){
     nav .classList.toggle('active')
 }
 
-function efectMoveLi(){
-    var li = document.getElementById('items-menu');
-    li.style.color = 'red'
-}
+// function efectMoveLi(){
+//     var li = document.getElementById('items-menu');
+//     li.style.color = 'red'
+// }
