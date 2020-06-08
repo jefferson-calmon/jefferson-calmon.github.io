@@ -41,7 +41,6 @@ body{
     grid-template-rows: auto;
     grid-gap: 0 30px;
     margin: 50px auto;
-    
 }
 .container-services .box{
     position: relative;
@@ -52,7 +51,6 @@ body{
     align-items: center;
     border: 1px solid #000;
     margin: 20px auto;
-    
 }
 
 .container-services .box:before{

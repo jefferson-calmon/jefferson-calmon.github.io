@@ -3,3 +3,10 @@
     background-size: cover;
     /* margin: auto; */
 }
+
+.projects .container .box.ecoleta{
+    background: url('../projects/images/capa.png');
+    background-size: cover;
+    background-position: center;
+    /* margin: auto; */
+}
