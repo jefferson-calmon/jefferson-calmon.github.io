@@ -7,6 +7,9 @@
     font-family: 'Roboto', sans-serif;
     color: #262626;
 }
+h1, h2, h3{
+    font-family: 'Ubuntu', sans-serif;
+}
 
 .container{
     width: 100%;
@@ -40,20 +43,24 @@
 }
 
 .content .text h2{
-    margin: 10px auto;
+    margin-top: 15px;
+    margin-bottom: 5px;
 }
 
 .content .text p{
     display: inline-block;
     font-size: 1.1em;
     width: 75%;
-    margin: 10px auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-indent: 35px;
+    color: #262626d3;
 }
 
 .content .text a{
     display: inline-block;
     background: blue;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     text-decoration: none;
     color: #ffffff;
@@ -108,4 +115,5 @@ background-size: cover;
     .sliderBox{
         width: 100%;
         /* transform: translateY(-100px); */
+    }
 }
