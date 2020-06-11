@@ -61,8 +61,6 @@
     padding: 10px 15px;
 }
 
-.arrow-down{
-}
 
 /* Swipper */
 
@@ -107,5 +105,6 @@ background-size: cover;
 
     .sliderBox{
         width: 100%;
-        /* transform: translateY(-100px); */
+ 
+    }    /* transform: translateY(-100px); */
 }

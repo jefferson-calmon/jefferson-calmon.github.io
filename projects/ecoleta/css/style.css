@@ -65,17 +65,13 @@ h1, h2, h3{
     font-weight: bold;
     text-decoration: none;
     color: #ffffff;
-    margin-top: 20px;
+    margin-top: 30px;
     padding: 10px 15px;
 }
 
 .content .text ul{
     transform: translateX(40px);
 }
-
-.arrow-down{
-}
-
 /* Swipper */
 
 .sliderBox{
