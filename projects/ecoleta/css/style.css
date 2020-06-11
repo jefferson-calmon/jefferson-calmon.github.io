@@ -83,13 +83,16 @@ h1, h2, h3{
 }
 
 .swiper-container {
-width: 100%;
-height: 100%;
+    width: 100%;
+    height: 100%;
+    background: #6633CC;
 
 }
 .swiper-slide {
-background-position: 50% 0;
-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: contain;
+
 }
 
 
