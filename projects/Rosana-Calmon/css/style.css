@@ -86,13 +86,24 @@ h1, h2, h3{
     width: 100%;
     height: 100%;
     background: #fff;
-
 }
 .swiper-slide {
     background-repeat: no-repeat;
     background-position: 50% 0;
     background-size: contain;
 
+}
+
+.one {
+    background-size: contain;
+}
+
+.two{
+    background-size: cover;
+}
+
+.three{
+    background-size: contain;
 }
 
 
