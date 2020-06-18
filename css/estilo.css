@@ -207,7 +207,30 @@ header #toggle:after{
 #about{
     width: 100%;
     padding-top: 50px;
+    /* margin-top: 50px; */
 }
+
+.imgBox{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    /* margin-top: 50px; */
+}
+.imgEu, .imgBox div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.imgBox div{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.315);
+    z-index: 10000;
+}
+
 
 .textBox{
     width: 65%;

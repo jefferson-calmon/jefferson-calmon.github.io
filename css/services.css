@@ -37,7 +37,7 @@ body{
     position: relative;
     width: 80%;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
     grid-template-rows: auto;
     grid-gap: 0 30px;
     margin: 50px auto;
@@ -45,6 +45,7 @@ body{
 .container-services .box{
     position: relative;
     height: 400px;
+    width: 325px;
     background: #060c21;
     display: flex;
     justify-content: center;
