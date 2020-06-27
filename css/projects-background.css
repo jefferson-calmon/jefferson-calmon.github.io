@@ -12,8 +12,16 @@
 }
 
 .projects .container .box.rosana{
-    background: url('../projects/Rosana-Calmon/images/22.jpg');
-    background-size: contain;
+    background: url('../projects/Rosana-Calmon/images/minibanner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* margin: auto; */
+}
+
+.projects .container .box.learn{
+    background: url('../projects/learngo/assets/capa.png');
+    background-size: 450px;
     background-position: center;
     background-repeat: no-repeat;
     /* margin: auto; */
