@@ -26,3 +26,11 @@
     background-repeat: no-repeat;
     /* margin: auto; */
 }
+
+.projects .container .box.easybank{
+    background: url('../projects/easybank/assets/desktop-preview.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* margin: auto; */
+}
