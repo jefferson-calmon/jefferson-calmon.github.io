@@ -34,3 +34,10 @@
     background-repeat: no-repeat;
     /* margin: auto; */
 }
+
+.projects .container .box.insure{
+    background: url('../projects/insure/assets/capa.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

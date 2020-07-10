@@ -122,6 +122,7 @@ header #toggle:after{
 
 #navigation ul li{
     list-style: none;
+    margin: 5px 0;
 }
 
 #navigation ul li a{
@@ -163,6 +164,38 @@ header #toggle:after{
     text-decoration: none;
     font-size: 1.2em;
     font-weight: 500;
+}
+
+#call-to-project{
+    width: 100%;
+    min-height: 20vh;
+    padding: 50px;
+    background: #262626;
+    color: #fff;
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#call-to-project h1{
+    font-size: 35px;
+    width: 70%;
+}
+
+#call-to-project a{
+    text-decoration: none;
+    color: inherit; 
+    padding: 15px 25px;
+    border: 2px solid #fff;
+    font-size: 20px;
+    font-weight: bold;
+    width: auto;
+}
+
+#call-to-project a:hover{
+    background: #fff;
+    color: #262626;
 }
 
 /* Creditos */
@@ -322,10 +355,29 @@ footer a:hover{
         font-size: 1em;
     }
 
+    .content p{
+        text-align: left;
+    }
+
     .content a{
         font-size: 0.9em;
         font-weight: 500;
         padding: 8px 15px;
+    }
+
+    #call-to-project{
+        flex-direction: column;
+        padding: 50px 20px ;
+    }
+    #call-to-project h1{
+        width: 100%;
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    #call-to-project a{
+        padding: 10px 25px;
+        font-size: 18px;
     }
 
     .banner.active{
@@ -336,7 +388,7 @@ footer a:hover{
     }
     #navigation ul li a{
         font-size: 1.5em;
-        margin: 5px 0;
+        /* margin: 5px 0; */
     }
 
     .credito p{
@@ -356,6 +408,7 @@ footer a:hover{
     }
     .textBox p{
         font-size: 1.1em;
+        text-align: left;
     }
     
     .sci{
