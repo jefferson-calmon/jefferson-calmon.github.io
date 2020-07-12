@@ -1,17 +1,17 @@
-.projects .container .box.site-isabela{
+.projects .container .box.box.site-isabela, .projects .container-projects .box.site-isabela{
     background: url('../img/site-isabela.png') no-repeat;
     background-size: cover;
     /* margin: auto; */
 }
 
-.projects .container .box.ecoleta{
+.projects .container .box.ecoleta, .projects .container-projects .box.ecoleta{
     background: url('../projects/images/capa.png');
     background-size: cover;
     background-position: center;
     /* margin: auto; */
 }
 
-.projects .container .box.rosana{
+.projects .container .box.rosana, .projects .container-projects .box.rosana{
     background: url('../projects/Rosana-Calmon/images/minibanner.png');
     background-size: cover;
     background-position: center;
@@ -19,7 +19,7 @@
     /* margin: auto; */
 }
 
-.projects .container .box.learn{
+.projects .container .box.learn, .projects .container-projects .box.learn{
     background: url('../projects/learngo/assets/capa.png');
     background-size: 450px;
     background-position: center;
@@ -27,7 +27,7 @@
     /* margin: auto; */
 }
 
-.projects .container .box.easybank{
+.projects .container .box.easybank, .projects .container-projects .box.easybank{
     background: url('../projects/easybank/assets/desktop-preview.jpg');
     background-size: contain;
     background-position: center;
@@ -35,7 +35,7 @@
     /* margin: auto; */
 }
 
-.projects .container .box.insure{
+.projects .container .box.insure, .projects .container-projects .box.insure{
     background: url('../projects/insure/assets/capa.png');
     background-size: cover;
     background-position: center;

@@ -8,7 +8,7 @@
 	  function gtag(){dataLayer.push(arguments);}
 	  gtag('js', new Date());
 
-	  gtag('config', 'UA-167814992-1');
+	  gtag('config', 'UA-167814992-1'); 
     </script>
     <!-- ------------------------ -->
 
@@ -20,44 +20,78 @@
 
     <meta property="og:title" content="Portfolio | Jefferson Ferrari"/>
 	<meta property="og:type" content="website"/>
-	<meta property="og:url" content="https://jefferson-calmon.github.io/portfolio"/>
+	<meta property="og:url" content="https://jefferson-calmon.github.io"/>
 	<meta property="og:site_name" content="jefferson Ferrari - Front-End - Porto Seguro - Ba "/>
 	<meta property="og:description" content="Desenvolvedor de aplicações web e aplicativos nativos para Android e IOS.">
 	<meta name="OWNER" content="jeffjeff0197@gmail.com">
     <meta name="RATING" content="Geral">
+    <meta name="theme-color" content="#262626">
 
-    <meta name="theme-color" content="#1D252B">
     <link rel="apple-touch-icon" href="img/favicon.png">
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/projects-home.css">
+    <link rel="stylesheet" href="css/projects-background.css">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-    <link rel="canonical" href="https://jefferson-calmon.github.io/portfolio/index.html">
+    <link rel="canonical" href="https://jefferson-calmon.github.io">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
     <title>Portfólio | Jefferson Ferrari</title>
 </head>
 <body>
     <section class="banner" id="sec"> 
         <header>
-            <a href="index.html" class="logo">Portfólio</a>
+            <a href="/" class="logo">Portfólio</a>
             <div id="toggle" onclick="toggle()"></div>
+
+            <nav id="navigation-desktop">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="/#projects">Projetos</a></li>
+                    <li><a href="/#skills">Skills</a></li>
+                    <li><a href="/contact.html">Contato</a></li>
+                </ul>
+            </nav>
         </header>
 
+        <div class="shadow-banner"></div>
+        
         <div class="content">
             <h2>Olá, Mundo. &nbsp; <br>Eu sou <span>Jefferson Ferrari</span></h2>
 
             <p>Jovem Apaixonado por Programação e Tecnologias.</p>
-            <a href="index.html#about">Conheça-me</a>
+            <a href="index.html#about">Conhecer</a>
         </div>
 
+
         <ul class="sci">
-            <li><a href="https://www.instagram.com/jeffz1_/" target="_blank"><img src="img/instagram.png" alt="Icone instagram"></a></li>
+            <li>
+                <a href="https://www.instagram.com/jeffz1_/" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
 
-            <li><a href="https://www.facebook.com/profile.php?id=100005997739304" target="_blank"><img src="img/facebook.png" alt="Icone Facebook"></a></li>
+            <li>
+                <a href="https://www.facebook.com/profile.php?id=100005997739304" target="_blank">
+                    <i class="fab fa-facebook-square"></i>
+                </a>
+            </li>
 
-            <li><a href="https://github.com/jefferson-calmon" target="_blank"><img src="img/github.png" alt="Icone Github"></a></li>
+            <li>
+                <a href="https://github.com/jefferson-calmon" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
 
-            <li><a href="https://www.linkedin.com/in/jefferson-f-b24248191/" target="_blank"><img src="img/linkedin.png" alt="Icone linkedin"></a></li>
+            <li>
+                <a href="https://www.linkedin.com/in/jefferson-f-b24248191/" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
         </ul>
 
-        <div class="credito"><p>Foto de <a href="https://www.pexels.com/@lucaspezeta#_=_"  target="_blank">Lucas Pezeta</a> no <a href="https://www.pexels.com/pt-br"  target="_blank">Pexels</a></p></div>
+        <!-- <div class="credito"><p>Foto de <a href="https://www.pexels.com/@lucaspezeta#_=_"  target="_blank">Lucas Pezeta</a> no <a href="https://www.pexels.com/pt-br"  target="_blank">Pexels</a></p></div> -->
 
     </section>
 
@@ -72,48 +106,130 @@
     </div>
 
     <section id="about">
-
-
-        <!-- My future photo -->
-        <!-- <div class="imgBox">
-            <img src="img/jefferson-ferrari.jpg" class="imgEu" alt="Jefferson Ferrari">
-            <div></div>
-        </div> -->
-
-
-        <div class="textBox">
-            <h1>Sobre Mim</h1>
-            <p>
-                Desde pequeno, sempre fui apaixonado por tudo relacionado a tecnologia. Com meus 15 anos eu descobri o mundo da programação, e confesso que é uma das áreas da tecnologia que eu mais admiro. Comecei aprendendo desenvolvimento front-end e gostei bastante desta área. Hoje em dia eu estou focando todo o meu tempo em estudar e aprender JavaScript, ReactJs e React Native.
-            </p>
-
-            
+        <div class="container">
+            <div class="container-about">
+                <div class="photo">
+                    <img src="./img/dev.png" alt="Developer Jefferson Ferrari">
+                </div>
+                <div class="about-text">
+                    <h2 class="h2">Sobre o desenvolvedor</h2>
+                    <p>
+                        Jovem apaixonado por programação e tecnologias, Jefferson Ferrari é um desenvolvedor front-end & javascript.
+                    </p>
+                    <div class="btn-link">
+                        <a href="/pages/about/">Ler mais</a>
+                        <a href="#">Resumo</a>
+                    </div>
+                </div>
+            </div>
         </div>
-        
-        
-        <div class="textBox">
-            <h1>Qualidades</h1>
-            <p style="text-indent: 0;">
-                <span>Honestidade</span> - Uma  das coisas que meu Pai me ensinou é ser uma pessoa honesta. E eu agradeço infinitamente a ele.
-                <br><br>
-                <span>Responsabilidade</span> - Minha mãe desde pequeno me ensinou a ter responsabilidade, mesmo que fosse a força. kkk
-                <br><br>
-                <span>Bom gosto e Criatividade</span> - Eu dou muito valor para o design das coisas e a sua organização. Considero isso uma qualidade e também um diferencial.
-            </p>
-        </div>
+    </section>
 
-        <div class="textBox">
-            <h1>Experiência</h1>
-            <p>
-                Apesar de não ter me aparecido nenhuma oportunidade de trabalho ainda eu pratico em casa e crio alguns projetos pessoais e alguns fictícios. Com isso eu consigo ter experiência mesmo, sem de fato, ter trabalhado em alguma empresa.
-            </p>
+    <!-- ------------------------ -->
 
-            <section id="call-to-project">
-                <h1>Veja meus projetos mais recentes</h1>
-                <a href="/projects.html#view">Acessar</a>
+    <section id="projects">
+        <div class="container container-section-projects">
+            <h2 class="h2">Meus projetos</h2>
+
+            <section class="projects">
+                <div class="container-projects" id="last-projects"></div>
             </section>
-        </div>
 
+            <div class="linkBox"><a href="/projects.html">Ver todos</a></div>
+        </div>
+    </section>
+
+    <section id="skills" ontouchmove="touch()">
+        <div class="container">
+            <h2 class="h2">
+                Skills
+            </h2>
+
+            <div class="grid-skills-container">
+                <div class="skill">
+                    <div class="icon-skill">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <div class="text-skill">
+                        <h2>
+                            HtML5
+                        </h2>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="icon-skill">
+                        <i class="fab fa-css3"></i>
+                    </div>
+                    <div class="text-skill">
+                        <h2>
+                            CSS3
+                        </h2>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="icon-skill">
+                        <i class="fab fa-sass"></i>
+                    </div>
+                    <div class="text-skill">
+                        <h2>Sass</h2>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="icon-skill">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <div class="text-skill">
+                        <h2>Javascript</h2>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="icon-skill">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <div class="text-skill">
+                        <h2>ReactJS</h2>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="icon-skill">
+                        <i class="fab fa-node-js"></i>
+                    </div>
+                    <div class="text-skill">
+                        <h2>NodeJS</h2>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="icon-skill">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <div class="text-skill">
+                        <h2>Python</h2>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="icon-skill">
+                        <i class="fab fa-wordpress"></i>
+                    </div>
+                    <div class="text-skill">
+                        <h2>Wordpress</h2>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="icon-skill">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="text-skill">
+                        <h2>MySql</h2>
+                    </div>
+                </div>
+                <!-- <div class="skill">
+                    <div class="icon-skill"></div>
+                    <div class="text-skill"></div>
+                </div> -->
+            </div>
+
+            <div id="hand"><i id="icon-hand" class="fas fa-hand-pointer"></i></div>
+        </div>
     </section>
 
     <footer>
@@ -129,6 +245,22 @@
 
     
     <script>
+        let visitedSkill = false
+
+        const skill = document.getElementById('icon-hand');
+
+        const touch = () => {
+
+            skill.style.animation = 'animate-hand 2.5s linear infinite'
+
+            setTimeout(() => {
+                skill.style.animation = 'unset';
+                skill.style.display = 'none'
+                visitedSkill = true
+            }, 5000)
+            
+        }
+
         function toggle(){
             var sec = document.getElementById('sec')
             var nav = document.getElementById('navigation')
@@ -136,5 +268,7 @@
             nav .classList.toggle('active')
         }
     </script>
+
+    <script src="js/projects.js"></script>
 </body> 
 </html>
