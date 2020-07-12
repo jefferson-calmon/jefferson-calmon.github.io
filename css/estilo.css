@@ -50,7 +50,7 @@ header .logo{
     padding: 100px;
     min-height: 100vh;
     background-color: #262626;
-    background-image: url('../img/bg-banner.jpg');
+    background-image: url('../img/bg-banner.webp');
     background-size: cover;
     background-attachment: scroll;
     background-position: bottom;
