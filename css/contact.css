@@ -39,6 +39,7 @@
     height: 30px;
     background: transparent;
     border: none;
+    outline: none;
 }
 .contato .form label span{
     content: '';
@@ -57,13 +58,17 @@
 .contato .form input[type="submit"]{
     background: #1E252B;
     color: #ffffff;
-    padding: 10px 15px;
+    padding: 10px 25px;
     font-size: 1.2em;
-    margin: 10px 0;
-    border: npne;
+    margin-top: 20px;
+    border: none;
     outline: none;
     box-shadow: none;
     cursor: pointer;
+    border-radius: 7px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .contato .form label textarea{
     width: 100%;
