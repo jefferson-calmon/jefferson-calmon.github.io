@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background: #1E252B;
+    background: #0B0B0B;
 }
 .banner{
     background-position: 40% 100%;
@@ -176,6 +176,10 @@ body{
 .box .contentBox a:hover{
     color: #000;
     background-color: #fff;
+}
+
+footer{
+    background: #0B0B0B;
 }
 
 footer a{
