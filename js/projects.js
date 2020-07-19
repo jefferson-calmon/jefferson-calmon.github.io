@@ -1,5 +1,11 @@
 const projects = [
     {
+        title: "Inovare Vistorias",
+        description: "Site criado para empresa de vistorias imobiliárias.",
+        path: "projects/inovareVistorias/",
+        classImage: "inovareVistorias",
+    },
+    {
         title: "Insure",
         description: "Landing page de uma empresa de contração de seguros.",
         path: "/projects/insure",
@@ -28,12 +34,6 @@ const projects = [
         description: "Projeto criado durante a Next Level Week. App mobile para IOS e Android com React Native, Back-end com node.js e front-end com ReactJS.",
         path: "/projects/ecoleta",
         classImage: "ecoleta",
-    },
-    {
-        title: "Isabela Ferrari",
-        description: "Blog criado para Isabela Ferrari.",
-        path: "/projects/site-isabela/",
-        classImage: "site-isabela",
     },
 ]
 
