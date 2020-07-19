@@ -20,6 +20,18 @@ header{
     transition: .5s;
 }
 
+.textBox .grid-cursos-me{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.textBox .grid-cursos-me .box-cursos-me{
+    background: blue;
+    min-height: 200px;
+}
+
 @media (max-width:780px){
     header{
         padding: 20px 20px;

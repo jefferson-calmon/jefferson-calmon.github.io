@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/style.css">  
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <title>Inovare Vistorias</title>
+</head>
+<body>
+  <!-- Swiper -->
+    <section class="container">
+        <div>
+          <a href="/projects.html#view" class="btn-back"><i class="fas fa-arrow-left"></i>&nbsp;&nbsp;Voltar</a>
+        </div>
+
+        <div class="content">
+ 
+          <div class="text">
+            <h1>Inovare Vistorias</h1><br>
+
+            <p>Inovare Vistorias é uma empresa especializada em vistorias de imoveis com bastante experiência na área.</p>
+
+            <h2>Tecnologias usadas</h2>
+            <p>Eu utilizei as seguintes tecnologias: </p><br><br>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Javascript</li>
+            </ul>
+
+
+            <a href="https://inovarevistorias.com.br" target="_blank">Visitar site &nbsp; <i style="color: #fff;" class="fas fa-arrow-right"></i></a>
+          </div>
+
+          <!-- background do slid -> altura / 1.28 = largura -->
+
+          <div class="sliderBox">
+                <div class="swiper-container">
+                  <div class="swiper-wrapper">
+                      <div class="swiper-slide contain" style="background-image:url('./assets/banner.png');"></div>
+                      <div class="swiper-slide contain" style="background-image:url('./assets/parthers.png');"></div>
+                      <div class="swiper-slide contain" style="background-image:url('./assets/about.png');"></div>
+                      <div class="swiper-slide contain" style="background-image:url('./assets/contato.png');"></div>
+                  </div>
+                  <!-- Add Pagination -->
+                  <div class="swiper-pagination swiper-pagination-black"></div>
+                  <!-- Add Arrows -->
+                  <div class="swiper-button-next swiper-button-black"></div>
+                  <div class="swiper-button-prev swiper-button-black"blackv>
+                </div>
+          </div>
+
+            
+          <div style="height: 300px; width: 100%;"></div>
+        </div>
+    </section>
+
+
+  <!-- Swiper JS -->
+  <script src="js/swiper.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      spaceBetween: 30,
+      effect: 'cube',
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+</body>
+</html>
