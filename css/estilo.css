@@ -207,37 +207,7 @@ header{
     background-color: #fff;
 }
 
-#call-to-project{
-    width: 100%;
-    min-height: 20vh;
-    padding: 50px;
-    background: #262626;
-    color: #fff;
-    margin: 50px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
 
-#call-to-project h1{
-    font-size: 35px;
-    width: 70%;
-}
-
-#call-to-project a{
-    text-decoration: none;
-    color: inherit; 
-    padding: 15px 25px;
-    border: 2px solid #fff;
-    font-size: 20px;
-    font-weight: bold;
-    width: auto;
-}
-
-#call-to-project a:hover{
-    background: #fff;
-    color: #262626;
-}
 
 /* Creditos */
 

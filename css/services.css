@@ -41,28 +41,31 @@ body{
     grid-template-rows: auto;
     grid-gap: 0 30px;
     margin: 50px auto;
+    margin-bottom: 75px;
 }
 .container-services .box{
     position: relative;
     height: 400px;
     width: 310px;
-    background: #060c21;
+    /* background: #060c21; */
+    background: #111111;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid #000;
     margin: 20px auto;
+    border-radius: 5px;
 }
 
-.container-services .box:before{
+.container-services .box::before{
     content: '';
     position: absolute;
-    top: -2px;
-    left: -2px;
-    right: -2px;
-    bottom: -2px;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
     background: #fff;
-    transform: skew(2deg, 2deg);
+    /* transform: skew(2deg, 2deg); */
     z-index: -1;
 }
 
@@ -83,10 +86,10 @@ body{
 
 @keyframes animate{
     0%,100%{
-        filter: hue-rotate(0deg);
+        filter: hue-rotate(0deg) blur(15px);
     }
     50%{
-        filter: hue-rotate(360deg);
+        filter: hue-rotate(360deg) blur(15px);
     }
 }
 
@@ -201,5 +204,13 @@ footer div.icon-credito a{
     }
     .contentBox .novo{
         top: -5px;
+    }
+
+    .container-services{
+        margin-bottom: 0px;
+    }
+
+    .container-services .box{
+        margin-bottom: 75px;
     }
 }

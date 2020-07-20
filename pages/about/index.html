@@ -12,7 +12,7 @@
 <body>
     <section class="banner" id="sec">
         <header>
-            <a href="/" class="logo">Portfólio</a>
+            <a href="/" class="logo" style="opacity: 0;">Portfólio</a>
             <div id="toggle" onclick="toggle()"></div>
     
             <nav id="navigation-desktop">
@@ -20,11 +20,11 @@
                     <li><a href="/">Home</a></li>
                     <li><a href="#about">Sobre</a></li>
                     <li><a href="/services.html">Serviços</a></li>
-                    <li><a href="/projects.html">Projetos</a></li>
+                    <li><a href="/#projects">Projetos</a></li>
                     <li><a href="/contact.html">Contato</a></li>
                 </ul> 
             </nav>
-        </header>
+        </header> 
     
     </section>
     <div id="navigation">
@@ -32,20 +32,12 @@
             <li><a href="/">home</a></li>
             <li><a onclick="toggle()" href="index.html#about">Sobre</a></li>
             <li><a href="services.html">Serviços</a></li>
-            <li><a href="projects.html">Projetos</a></li>
+            <li><a href="/#projects">Projetos</a></li>
             <li><a href="contact.html">Contato</a></li>
         </ul>
     </div>
 
     <section id="landing">
-
-
-        <!-- My future photo -->
-        <!-- <div class="imgBox">
-            <img src="img/jefferson-ferrari.jpg" class="imgEu" alt="Jefferson Ferrari">
-            <div></div>
-        </div> -->
-
 
         <div class="textBox">
             <h1>Sobre Mim</h1>
@@ -55,7 +47,7 @@
             
         </div>
 
-        <div class="textBox">
+        <!-- <div class="textBox">
             <h1>Cursos</h1>
             <div class="grid-cursos-me">
                 <div class="box-cursos-me">
@@ -75,7 +67,7 @@
                 </div>
             </div>
         </div>
-        
+         -->
         
         <div class="textBox">
             <h1>Qualidades</h1>
@@ -94,11 +86,14 @@
                 Apesar de não ter me aparecido nenhuma oportunidade de trabalho ainda eu pratico em casa e crio alguns projetos pessoais e alguns fictícios. Com isso eu consigo ter experiência mesmo, sem de fato, ter trabalhado em alguma empresa.
             </p>
 
-            <section id="call-to-project">
+        </div>
+
+        <section id="call-to-project">
+            <div id="call-box">
                 <h1>Veja meus projetos mais recentes</h1>
                 <a href="/projects.html#view">Acessar</a>
-            </section>
-        </div>
+            </div>
+        </section>
 
     </section>
 

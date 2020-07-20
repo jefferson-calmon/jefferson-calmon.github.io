@@ -3,13 +3,14 @@
 } */
 
 header{
-    background: #262626;
+    background: #262626; 
     padding: 25px 100px;
 }
 
 .banner{
     min-height: 0px;
     padding: 0;
+    position: fixed;
 }
 
 .banner.active{
@@ -17,6 +18,7 @@ header{
 }
 
 #navigation{
+    position: fixed;
     transition: .5s;
 }
 
@@ -32,6 +34,51 @@ header{
     min-height: 200px;
 }
 
+#call-box{
+    width: 80%;
+    margin: auto;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#call-to-project{
+    width: 100%;
+    min-height: 20vh;
+    /* padding: 50px; */
+    background: #262626;
+    color: #fff;
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#call-to-project h1{
+    font-size: 35px;
+    width: 70%;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+#call-to-project a{
+    text-decoration: none;
+    color: inherit; 
+    padding: 15px 25px;
+    border: 2px solid #fff;
+    font-size: 20px;
+    font-weight: bold;
+    width: auto;
+    color: #fff;
+}
+
+#call-to-project a:hover{
+    background: #fff;
+    color: #262626;
+}
+
 @media (max-width:780px){
     header{
         padding: 20px 20px;
@@ -41,6 +88,24 @@ header{
         position: relative;
         
     }
+
+    #call-box{
+        min-height: 150px;
+    }
     
+    #call-to-project{
+        flex-direction: column;
+        padding: 50px 20px ;
+    }
+    #call-to-project h1{
+        width: 100%;
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    #call-to-project a{
+        padding: 10px 25px;
+        font-size: 18px;
+    }
 
 }
