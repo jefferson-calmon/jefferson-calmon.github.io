@@ -177,6 +177,8 @@ header{
 .content h2{
     color: #fff;
     font-size: 2.5em;
+    /* line-height: 140%; */
+    /* margin-bottom: 10px; */
 }
 .content h2 span{
     /* color: #cf731de5; */
@@ -186,9 +188,10 @@ header{
 }
 .content p{
     color: #fff;
-    font-size: 1.4em;
+    font-size: 1.3em;
     font-weight: 400;
     text-shadow: 1px 1px 2px #000;
+    /* margin-bottom: 10px; */
 }
 .content a{
     position: relative;
@@ -370,14 +373,17 @@ section .container h2.h2{
     border: 2px solid #fff;
     color: #fff;
     text-decoration: none;
-    margin-right: 10px;
     font-weight: 500;
+}
+
+#about .container .btn-link a:first-child{
+    margin-right: 30px;
 }
 
 #about .container .btn-link a:hover{
     background: #fff;
     color: #161618;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .container-section-projects{
@@ -734,7 +740,13 @@ footer .container p{
     }
 
     /* New configuration */
-
+    #about{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 
     #about .container{
         width: 100%;

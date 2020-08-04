@@ -79,6 +79,7 @@ header{
     color: #262626;
 }
 
+
 @media (max-width:780px){
     header{
         padding: 20px 20px;
@@ -89,6 +90,9 @@ header{
         
     }
 
+    #call-box{
+        min-height: 150px;
+    }
     #call-box{
         min-height: 150px;
     }
