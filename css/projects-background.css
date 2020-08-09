@@ -48,3 +48,10 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.projects .container .box.proffy, .projects .container-projects .box.proffy{
+    background: url('../projects/proffy/assets/capa.png');
+    background-size: 115%;
+    background-position: center;
+    background-repeat: no-repeat;
+}

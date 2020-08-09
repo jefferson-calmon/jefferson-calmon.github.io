@@ -1,5 +1,11 @@
 const projects = [
     {
+        title: "Proffy",
+        description: "Plataforma de estudos online.",
+        path: "projects/proffy/",
+        classImage: "proffy",
+    },
+    {
         title: "Inovare Vistorias",
         description: "Site criado para empresa de vistorias imobiliárias.",
         path: "projects/inovareVistorias/",
@@ -38,29 +44,37 @@ const projects = [
 ]
 
 const last = document.getElementById('last-projects');
+let count = 0;
 
 for (let i in projects){
 
-    const divBox = document.createElement('div');
-    divBox.className = `box ${projects[i].classImage}` ;
-    
-    const contentBox = document.createElement('div');
-    contentBox.className = 'contentBx'
-    
-    const h2 = document.createElement('h2');
-    h2.textContent = projects[i].title;
-    contentBox.appendChild(h2);
-    
-    const p = document.createElement('p');
-    p.textContent = projects[i].description;
-    contentBox.appendChild(p);
-    
-    const a = document.createElement('a');
-    a.href = projects[i].path
-    a.textContent = 'Ver mais'
-    contentBox.appendChild(a);
-    
-    divBox.appendChild(contentBox);
-    
-    last.appendChild(divBox)
-}
+    if (count < 6){
+
+        const divBox = document.createElement('div');
+        divBox.className = `box ${projects[i].classImage}` ;
+        
+        const contentBox = document.createElement('div');
+        contentBox.className = 'contentBx'
+        
+        const h2 = document.createElement('h2');
+        h2.textContent = projects[i].title;
+        contentBox.appendChild(h2);
+        
+        const p = document.createElement('p');
+        p.textContent = projects[i].description;
+        contentBox.appendChild(p);
+        
+        const a = document.createElement('a');
+        a.href = projects[i].path
+        a.textContent = 'Ver mais'
+        contentBox.appendChild(a);
+        
+        divBox.appendChild(contentBox);
+        
+        last.appendChild(divBox)
+
+        count++
+    }else{
+        break
+    }
+};
