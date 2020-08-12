@@ -499,6 +499,10 @@ section .container h2.h2{
     place-items: center;
 }
 
+.skill .icon-skill img#imgTS{
+    width: 45px;
+}
+
 .skill .icon-skill i{
     font-size: 50px;
 }
@@ -810,6 +814,11 @@ footer .container p{
     .skill .icon-skill{
         width: 90px;
         height: 90px;
+        position: relative;
+    }
+
+    .skill .icon-skill img#imgTS{
+        width: 35px;
     }
 
     .skill .icon-skill i{
@@ -818,6 +827,7 @@ footer .container p{
 
     .skill .text-skill h2{
         font-size: 25px;
+        color: rgb(66, 195, 255);
     }
 
     #hand{
