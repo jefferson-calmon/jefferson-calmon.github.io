@@ -177,40 +177,42 @@ header{
 .content h2{
     color: #fff;
     font-size: 2.5em;
-    /* line-height: 140%; */
-    /* margin-bottom: 10px; */
+    line-height: 140%;
 }
 .content h2 span{
     /* color: #cf731de5; */
     color: var(--azul);
     font-size: 1.2em;
-    text-shadow: 1px 1px 3px #000;
+    /* text-shadow: 1px 1px 3px #000; */
 }
 .content p{
     color: #fff;
-    font-size: 1.3em;
+    font-size: 1.15em;
     font-weight: 400;
     text-shadow: 1px 1px 2px #000;
-    /* margin-bottom: 10px; */
+    margin: 10px 0 25px;
 }
 .content a{
     position: relative;
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
     margin-top: 20px;
     border: 2px solid #fff;
     color: #fff;
-    padding: 10px 30px;
+
+    height: 50px;
+    width: 175px;
+
     text-decoration: none;
-    font-size: 1.2em;
-    letter-spacing: 1px;
+    font-size: 1.1em;
     font-weight: 600;
-}
-.content a:hover{
+    border-radius: 3px;
+    
     color: #000;
     background-color: #fff;
 }
-
-
 
 /* Creditos */
 
@@ -378,6 +380,9 @@ section .container h2.h2{
 
 #about .container .btn-link a:first-child{
     margin-right: 30px;
+    background: #fff;
+    color: #161618;
+    font-weight: 600;
 }
 
 #about .container .btn-link a:hover{
@@ -402,7 +407,7 @@ section .container h2.h2{
     margin-bottom: 30px;
     position: relative;
     padding-bottom: 30px;
-}
+} 
 
 
 #projects .container h2.h2::before{
@@ -613,6 +618,7 @@ footer .container p{
     }
     .banner h2{
         font-size: 1.8em;
+        line-height: 35px;
     }
 
     .banner .content p, .content a{
@@ -626,7 +632,9 @@ footer .container p{
     .content a{
         font-size: 0.9em;
         font-weight: 500;
-        padding: 8px 15px;
+
+        height: 40px;
+        width: 130px;
     }
 
     #call-to-project{
