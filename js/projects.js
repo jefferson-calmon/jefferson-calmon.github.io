@@ -30,17 +30,11 @@ const projects = [
         classImage: "learn",
     },
     {
-        title: "Insure",
-        description: "Site para a advogada Rosana Calmon",
-        path: "/projects/Rosana-Calmon",
-        classImage: "rosana",
-    },
-    {
         title: "Ecoleta",
         description: "Projeto criado durante a Next Level Week. App mobile para IOS e Android com React Native, Back-end com node.js e front-end com ReactJS.",
         path: "/projects/ecoleta",
         classImage: "ecoleta",
-    },
+    }, 
 ]
 
 const last = document.getElementById('last-projects');
