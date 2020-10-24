@@ -1,17 +1,9 @@
-# Código fonte do meu repositório
+<div align="center">
+    <img src="./.github/logo.png" width="75">
+    <h1>
+        Jefferson Calmon
+    </h1>
+    <h3>Jovem apaixonado por programação e tecnologias.</h3>
+</div>
 
-
-Nesse repositório público eu guardo os códigos do meu site/portfólio.
-
-Você pode acessa-lo clicando [aqui](https://jefferson-calmon.github.io/portfolio/)
-
-## Linguagens e Tecnologias usadas
-
-* JavaScript
-* CSS
-* HTML
-
-
-
-Foto Exemplo
-<img src="img/site.png" align="center">
+<img src="./.github/capa.png">
